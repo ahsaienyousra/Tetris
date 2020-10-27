@@ -16,12 +16,16 @@ import javax.swing.Timer;
 /**
  * Project : Tetris <br/>
  * Package : fr.isen.tetris <br/>
- * Nom : Tetris <br/>
+
  * 
  * Description : Classe représentant une forme géométrique <br/>
  * Possède une liste finie définie dans l'énumération imbriquée Tetrominoes
  * 
+<<<<<<< HEAD
+ * @author DEV2
+=======
  * @author DEV1
+>>>>>>> ea926c2665a809fa578deafa9dcb42e966fb0802
  * @see http://zetcode.com/tutorials/javagamestutorial/tetris/
  */
 public class Board extends JPanel implements ActionListener {
