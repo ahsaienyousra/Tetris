@@ -21,7 +21,11 @@ import javax.swing.Timer;
  * Description : Classe représentant une forme géométrique <br/>
  * Possède une liste finie définie dans l'énumération imbriquée Tetrominoes
  * 
+<<<<<<< HEAD
  * @author DEV2
+=======
+ * @author DEV1
+>>>>>>> ea926c2665a809fa578deafa9dcb42e966fb0802
  * @see http://zetcode.com/tutorials/javagamestutorial/tetris/
  */
 public class Board extends JPanel implements ActionListener {
@@ -33,14 +37,14 @@ public class Board extends JPanel implements ActionListener {
    * 
    * Description : Adapter pour les touches du clavier <br/>
    */
-  class TAdapter extends KeyAdapter {
+  /**class TAdapter extends KeyAdapter {
 
     /**
      * {@inheritDoc}
      * 
      * @see java.awt.event.KeyAdapter#keyPressed(java.awt.event.KeyEvent)
      */
-    @Override
+   /* @Override
     public void keyPressed(final KeyEvent e) {
 
       if (!Board.this.isStarted || Board.this.curPiece.getShape() == Tetrominoes.NoShape) {
@@ -84,7 +88,7 @@ public class Board extends JPanel implements ActionListener {
           break;
       }
     }
-  }
+  }*/
 
   /**
    * Serial UID
