@@ -33,14 +33,14 @@ public class Board extends JPanel implements ActionListener {
    * 
    * Description : Adapter pour les touches du clavier <br/>
    */
-  class TAdapter extends KeyAdapter {
+  /**class TAdapter extends KeyAdapter {
 
     /**
      * {@inheritDoc}
      * 
      * @see java.awt.event.KeyAdapter#keyPressed(java.awt.event.KeyEvent)
      */
-    @Override
+   /* @Override
     public void keyPressed(final KeyEvent e) {
 
       if (!Board.this.isStarted || Board.this.curPiece.getShape() == Tetrominoes.NoShape) {
@@ -84,7 +84,7 @@ public class Board extends JPanel implements ActionListener {
           break;
       }
     }
-  }
+  }*/
 
   /**
    * Serial UID
